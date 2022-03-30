@@ -3,24 +3,24 @@ class Book
 
     attr_accessor :title
     attr_accessor :author
-    attr_reader :page_count
-    attr_reader :genre
+    attr_accessor :page_count
+    attr_accessor :genre
 
     def initialize(title)
         @title = title
     end 
 
-    def author=(value)
-        @author = value
-    end 
+    # def author=(value)
+    #     @author = value
+    # end 
 
-    def page_count=(value)
-        @page_count = value
-    end 
+    # def page_count=(value)
+    #     @page_count = value
+    # end 
     
-    def genre=(value)
-        @genre = value
-    end 
+    # def genre=(value)
+    #     @genre = value
+    # end 
 
     def turn_page
         puts "Flipping the page...wow, you read fast!"
